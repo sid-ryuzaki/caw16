@@ -1,0 +1,260 @@
+{
+  "hashtags": [
+    {
+      "hashtag": "Line Chaser",
+      "description": "Issues always become magnified during huge events like the Olympic games, and this past year brought to light injustices against the LGBTQ community in Russia. I wanted to take a retrospective look at this topic that I think should have received more attention. ",
+      "month": "February",
+      "media_url": "img/artwork/linechaser.jpg", 
+      "artist": {
+        "name": "Electronics",
+        "title":"Blah Blah Blah ",
+        "hometown":"Bleh Bleh",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#508ca4"
+    },
+       {
+      "hashtag": "Reducs N Deduce",
+      "description": "Give your brain a challenge.",
+      "month": "February",
+      "media_url": "img/artwork/reduce.jpg", 
+      "artist": {
+        "name": "Electronics",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#508ca4"
+    },
+       {
+      "hashtag": "Mad Engineering",
+      "description": "Are you passionate about electronics?? Are you confident in your potential?? Then Mad Engineering is the right event for you",
+      "month": "February",
+      "media_url": "img/artwork/madeng.jpg", 
+      "artist": {
+        "name": "Electronics",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#508ca4"
+    },
+    {
+      "hashtag": "Robo War",
+      "description": "Get Set Metal Heads. Be there on the battle field.",
+        
+      "month": "March",
+      "media_url": "img/artwork/robowar.jpg", 
+      "artist": {
+        "name": "Mechanical",
+        "title":"Blah Blah ",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#0b97c0"
+    },
+    {
+      "hashtag": "Pit Stop",
+      "description": "Get Set Metal Heads. Be there on the battle field.",
+        
+      "month": "March",
+      "media_url": "img/artwork/pitstop.jpg", 
+      "artist": {
+        "name": "Mechanical",
+        "title":"Blah Blah ",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#0b97c0"
+    },
+    {
+      "hashtag": "Robo Soccer",
+      "description": "Get Set Metal Heads. Be there on the battle field.",
+        
+      "month": "March",
+      "media_url": "img/artwork/robosoccer.jpg", 
+      "artist": {
+        "name": "Mechanical",
+        "title":"Blah Blah ",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#0b97c0"
+    },
+    {
+      "hashtag": "En Passant",
+      "description": "EN PASSANT - A Tech Debate It is better to debate a question without settling it than to settle a question without debating it",
+      "month": "April",
+      "media_url": "img/artwork/enpassant.jpg", 
+      "artist": {
+        "name": "General",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#988d87"
+    },
+     {
+      "hashtag": "Quiz.exe",
+      "description": "If your thirst is for power,knowledge is what you need! If knowledge is what you yearn for,then quizzing is what you do! If quizzing holds you enthralled,then this is THE place to be!!",
+      "month": "April",
+      "media_url": "img/artwork/quiz.jpg", 
+      "artist": {
+        "name": "General",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#988d87"
+    },
+    {
+      "hashtag": "Matlab Coding",
+      "description": "These cool girls are on there way to enjoying amazing music and showing off their outfits. You can definitely sit with them.",
+      "month": "April",
+      "media_url": "img/artwork/matlab.jpg", 
+      "artist": {
+        "name": "Computer Science",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#6625b3"
+    },
+    {
+      "hashtag": "Cognito",
+      "description": "We have a lot of questions.The answers? Well,that's your problem.Welcome to COGNITO,The Tech Quiz.",
+      "month": "April",
+      "media_url": "img/artwork/cognito.jpg", 
+      "artist": {
+        "name": "Computer Science",
+        "title":"Blah Blah",
+        "hometown":"Blah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#6625b3"
+    },
+    {
+      "hashtag": "Fold It",
+      "description": "Every four years, we gather around televisions across the globe to witness history - The World Cup. It's a time when everyone comes together to celebrate and enjoy the sport of football. Foosball is a fast and fun tabletop game based on football, so I decided to combine Foosball with the World Cup to represent the unity it brings between countries and the enjoyment we all get from watching it.",
+      "month": "June",
+      "media_url": "img/artwork/foldit.jpg", 
+      "artist": {
+        "name": "Biotechnology",
+        "title":"Blah BLah",
+        "hometown":"Blah ",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#1a491d"
+    },
+     {
+      "hashtag": "Ethique Biotechnica",
+      "description": "Every four years, we gather around televisions across the globe to witness history - The World Cup. It's a time when everyone comes together to celebrate and enjoy the sport of football. Foosball is a fast and fun tabletop game based on football, so I decided to combine Foosball with the World Cup to represent the unity it brings between countries and the enjoyment we all get from watching it.",
+      "month": "June",
+      "media_url": "img/artwork/ethique.jpg", 
+      "artist": {
+        "name": "Biotechnology",
+        "title":"Blah BLah",
+        "hometown":"Blah ",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#1a491d"
+    },
+    {
+      "hashtag": "Gaming",
+      "description": "Games Games and more Games ",
+      "month": "August",
+      "media_url": "img/artwork/gaming.jpg", 
+      "artist": {
+        "name": "Gaming",
+        "title":"Fuck it",
+        "hometown":"BLah",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#f47724"
+    },
+    {
+      "hashtag": "RIPRobinWilliams",
+      "description": "Genie from Aladdin was by far my favorite character acted by Robin Williams, inspiring this piece. With his humorous wisdom, reflected in the many characters he played, he provided the world with uplifting optimism. Thank you, Robin Williams.",
+      "month": "August",
+      "media_url": "img/artwork/riprobinwilliams.jpg", 
+      "artist": {
+        "name": "Ruzanna Rozman",
+        "title":"Designer",
+        "hometown":"Kuala Lumpur, Malaysia",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#f47724"
+    },
+    {
+      "hashtag": "DerekJeter",
+      "description": "Born and raised watching him play. YEAH JEETS!",
+      "month": "September",
+      "media_url": "img/artwork/derekjeter.jpg", 
+      "media_embed": "<iframe src='//player.vimeo.com/video/115437496?title=0&amp;byline=0&amp;portrait=0&amp;loop=1' width='100%' height='auto' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+      "artist": {
+        "name": "Patrick Finn",
+        "title":"Designer/Animator",
+        "hometown":"Yonkers, NY",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#1f2741"
+    },
+    {
+      "hashtag": "NYFW",
+      "description": "This represents the familiar sequence we see of models on runway, and the intention to reach a desired level of perfection. Identity becomes lost, as their main objective is to ideally represent the garment they are carrying. <br><small>Original photo from Tibi's Pre SS2015 RTW collection.</small>",
+      "month": "September",
+      "media_url": "img/artwork/nyfw.jpg", 
+      "artist": {
+        "name": "Estee Kim",
+        "title":"Graphic Designer",
+        "hometown":"",
+        "twitter":"",
+        "website":""
+      },
+      "main_color":"#1f2741"
+    },
+    {
+      "hashtag": "BlackLivesMatter",
+      "description": "Photography/ Photo Manipulation. Inspired by the #blacklivesmatter movement, founded in 2012, this piece features the digital manipulation of signs. I think it is important for black youth to know their worth before the media and the world tries to convince them otherwise.",
+      "month": "December",
+      "media_url": "img/artwork/blacklivesmatter.jpg", 
+      "artist": {
+        "name": "Blair Meadows",
+        "title":"Photographer/Creative",
+        "hometown":"Nassau,Bahamas",
+        "twitter":"itsblayuh",
+        "website":"//www.blairjmeadows.com"
+      },
+      "main_color":"#171717"
+    },
+    {
+      "hashtag": "ICantBreathe",
+      "description": "We have seen a system that has continued to fail black men this year; where selling loose cigarettes is punishable by death, and justice is in the eye of the beholder. These words <em>'I Can't Breathe'</em> shall echo through United States history as a cry from a people that have yet to know what it means to be free and truly equal.",
+      "month": "December",
+      "media_url": "img/artwork/icantbreathe.jpg", 
+      "artist": {
+        "name": "Jordan Lyle",
+        "title":"Art Director",
+        "hometown":"Kingston, Jamaica",
+        "twitter":"itsjordanlyle",
+        "website":"//jordanlyle.com"
+      },
+      "main_color":"#a00201"
+    }
+  ]
+}

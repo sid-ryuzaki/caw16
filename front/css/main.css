@@ -1,0 +1,415 @@
+/*
+    font-family:'Futura W01 Light';
+	font-family:'FuturaW01-LightOblique';
+	font-family:'Futura W01 Book';
+	font-family:'Futura W01 Book Oblique';
+	font-family:'Futura W01 Medium';
+	font-family:'FuturaW01-MediumOblique';
+	font-family:'Futura W01 Bold';
+	font-family:'Futura W01 Bold Oblique';
+	font-family:'Futura W01 ExtraBold';
+	font-family:'FuturaW01-ExtraBoldObli';
+	font-family:'Futura W01 Heavy';
+	font-family:'FuturaW01-HeavyOblique';
+	font-family:'FuturaW01-LightCondense 774878';
+	font-family:'FuturaW01-LightCondense 774881';
+	font-family:'FuturaW01-MediumCondens';
+	font-family:'FuturaW01-MediumCondObl';
+	font-family:'FuturaW01-BoldCondensed 774890';
+	font-family:'FuturaW01-BoldCondensed 774893';
+	font-family:'FuturaW01-ExtraBoldCond 774896';
+	font-family:'FuturaW01-ExtraBoldCond 774899';
+	font-family:'FuturaW01-ShadowedExBol';
+	font-family:'Futura W01 Display';
+	font-family:'Futura W01 Black';
+ */
+html, body {
+	padding:0px;
+	margin:0px;
+	background-color:#FFF;
+	position: absolute;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	font-family:'Futura W01 Light';
+}
+
+a {
+	text-decoration:none;
+}
+
+#logo {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-250px;
+	margin-top:-300px;
+	width:500px;
+	height:500px;
+	pointer-events:none;
+}
+
+#logo img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+
+h1 {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-250px;
+	width:500px;
+	color:#000;
+	text-align:center;
+	margin-top:100px;
+	z-index:1;
+	opacity:0;
+	pointer-events:none;
+}
+
+.grey {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;	
+	overflow:hidden;
+	color:#FFF;
+	background-color: #3e3e3e;
+}
+
+.white {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:0px;	
+	overflow:hidden;
+	color:#3e3e3e;
+	background-color:#FFF;
+}
+
+.close span.before {
+	content: "";
+	height:1px;
+	width:60px;
+	position:absolute;
+	top: 30px;
+	left:0px;
+	background-color:#FFF;
+}
+
+.close span.after {
+	content: "";
+	height:1px;
+	width:60px;
+	position:absolute;
+	top: 30px;
+	left:0px;
+	background-color:#FFF;
+}
+
+.content {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	height:40px;
+	
+	font-size: 19px;
+	line-height:40px;
+	color:#494949;
+	
+	font-family:"Futura W01 Book";
+	opacity:0;
+	transition: color 0.3s;
+}
+
+.content.reveal {
+	opacity:0.8;	
+}
+
+.content.reveal, .content.reveal a {
+	color:#fff;
+}
+
+.content a {
+	color:#494949;
+	transition: color 0.3s;
+}
+
+.bonjour {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;	
+	
+	text-align:center;
+}
+
+.bonjour span {
+	position:absolute;
+	top:50%;
+	left:0px;
+	height:150px;
+	width:300px;	
+	margin-top:-75px;
+	margin-left:-150px;
+	line-height:150px;
+	font-size:80px;
+}
+
+.container {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;	
+	background-color:#FFF;
+	display:none;
+}
+
+.projects {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -80px;
+	width: 160px;
+	line-height: 40px;
+	height: 40px;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 170px;
+	z-index: 1;
+	background-color: #303030;
+    transition: background-color 0.3s;
+    opacity:0;
+    display:none;
+}
+
+.projects:before {
+	content:"";
+
+	right:0px;
+	bottom:0px;
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 11px 11px;
+	border-color: #3e3e3e #494949 #494949 #3e3e3e;
+	
+	transition: all 0.3s;
+}
+
+.projects:hover:before {
+	border-color: #3e3e3e #494949 #494949 #3e3e3e;
+	border-width: 0 0 16px 16px;
+}
+
+.close {
+	color: #FFF;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 54px;
+	z-index: 80;
+	font-weight: 100;
+	height:60px;
+	width:60px;
+	transition: all .3s ease-in-out;
+	opacity:0.8;
+}
+
+.close:hover {
+	cursor:pointer;
+	opacity:1;
+	transform:rotate(90deg);
+}
+
+.languette {
+	left:0px;
+	top:0px;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1e1e1e;
+	display:none;
+}
+
+#portfolio {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background-color:#1e1e1e;
+	display:none;
+}
+
+#portfolio .item {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	background-color:#000;
+	display:none;
+}
+
+#portfolio a {
+	color: #FFF;
+	font-size: 26px;
+	width: 210px;
+	height: 50px;
+	margin-top: 30px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+	border: 1px solid #FFF;
+	background: rgba(0, 0, 0, 0.4);
+	transition: background .3s;
+}
+
+#portfolio a:hover {
+	background: rgba(0, 0, 0, 0.6);	
+}
+
+.video, .title {
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility:hidden;
+}
+
+#portfolio .overlay {
+	background:url("img/grain.png");
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+#portfolio .title {
+	color: #FFF;
+	font-size: 46px;
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+	margin-bottom: -80px;
+	text-align: center;
+	opacity: 0.9;
+	z-index: 10;
+	line-height: 35px;
+}
+
+#portfolio .title span {
+	font-size: 23px;
+}
+
+#portfolio .video {
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+}
+
+#portfolio .next {
+	position:absolute;
+	top:50%;
+	right: 23px;
+	width:80px;
+	height:100px;
+	margin-top:-50px;
+	z-index:200;
+	overflow: hidden;
+	opacity:0.6;
+	transition: opacity .3s ease-in-out;
+	display:none;
+}
+
+#portfolio .next:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+#portfolio .prev {
+	position:absolute;
+	top:50%;
+	left:23px;
+	width:80px;
+	height:100px;
+	margin-top:-50px;
+	z-index:200;
+	overflow: hidden;
+	opacity:0.6;
+	transition: opacity .3s ease-in-out;
+	display:none;
+}
+
+#portfolio .prev:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+#portfolio .prev span.before {
+	position: absolute;
+	top: 37px;
+	left: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #FFF;
+	content: "";
+}
+
+#portfolio .prev span.after {
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #FFF;
+	content: "";
+}
+
+#particule2 {
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+
+#portfolio .next span.before {
+	position: absolute;
+	top: 65px;
+	right: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #FFF;
+	content: "";
+}
+
+#portfolio .next span.after {
+	position: absolute;
+	top: 37px;
+	right: 0px;
+	width: 40px;
+	height: 1px;
+	background-color: #FFF;
+	content: "";
+}
